@@ -38,7 +38,7 @@ Se determinó que nuestros usuarios en la mayoría son mujeres, sin embargo la e
 
 En cuanto la edad la mayoría de los usuarios tiene una edad de entre los 26 y 35 años. Por lo que consideramos que pertenecen a la generación que re-conectó en los últimos años.
 
-![](src/imagenes-readme/edad.png)
+![](src/Imagenes-readme/edad.png)
 
 La mayoría de nuestros usuarios conoce pokémon por la caricatura y la película. Nuestra finalidad con esta pregunta era determinar si nuestro usuario es Fan o solo curioso del tema, ya que dejamos que en la pregunta pudieran registrar más de una respuesta. 24 usuarios solo registraron una opción, 6 usuarios registraron dos opciones y 7 usuarios registraron tres opciones. Llegamos a la conclusión de la mayoría de nuestros usuarios no son fans.
 
