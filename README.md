@@ -35,14 +35,19 @@ Crear una página web donde el usuario pueda tener información específica de c
 Se realizó una encuesta para determinar a nuestro usuario, preguntar directamente que información les interesa tener en la página, determinar el conocimiento del usuario, la edad, generó y los pokémon favoritos.
 
 Se determinó que nuestros usuarios en la mayoría son mujeres, sin embargo la encuesta nos arrojó un número muy similar entre los usuarios.
+![](src/Imagenes-readme/genero.png)
 
 En cuanto la edad la mayoría de los usuarios tiene una edad de entre los 26 y 35 años. Por lo que consideramos que pertenecen a la generación que re-conectó en los últimos años.
 
-![](src/Imagenes-readme/edad.png)
+![](src/Imagenes-readme/Edad.png)
 
 La mayoría de nuestros usuarios conoce pokémon por la caricatura y la película. Nuestra finalidad con esta pregunta era determinar si nuestro usuario es Fan o solo curioso del tema, ya que dejamos que en la pregunta pudieran registrar más de una respuesta. 24 usuarios solo registraron una opción, 6 usuarios registraron dos opciones y 7 usuarios registraron tres opciones. Llegamos a la conclusión de la mayoría de nuestros usuarios no son fans.
 
+![](src/Imagenes-readme/donde_conoces.png)
+
 Se muestra que la información que desean ver en la página es información general como de personajes, después los tipos de pokémon y sus evoluciones.
+
+![](src/Imagenes-readme/informacion.png)
 
 Los pokémon con más menciones fueron
 1.	Charmander con 10 votos
@@ -51,6 +56,7 @@ Los pokémon con más menciones fueron
 4.	Jigglypuff con 3 votos
 5.	Fenekin y Ditto con dos votos
 
+![](src/Imagenes-readme/pokemonfavorito.png)
 
 ## Usuarios
 
@@ -89,7 +95,8 @@ Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel.
 
 https://marvelapp.com/621b873
 
-![](src/imagenes/prototipo_weencrypt-01.png)
+![](src/Imagenes-readme/IMG_20190828_133359.jpg)
+![](src/Imagenes-readme/IMG_20190828_133408.jpg)
 
 #### Prototipo de alta fidelidad
 
