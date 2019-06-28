@@ -83,6 +83,10 @@ Necesitamos: botón de búsqueda, botones de categorías, comparación de pokém
 
 #### Prototipo de baja fidelidad
 
+Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel.
+
+https://marvelapp.com/621b873
+
 #### Prototipo de alta fidelidad
 
 #### Testeo
