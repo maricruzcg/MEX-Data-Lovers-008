@@ -87,6 +87,8 @@ Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel.
 
 https://marvelapp.com/621b873
 
+![](src/imagenes/prototipo_weencrypt-01.png)
+
 #### Prototipo de alta fidelidad
 
 #### Testeo
