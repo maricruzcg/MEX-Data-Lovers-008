@@ -95,8 +95,8 @@ Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel.
 
 https://marvelapp.com/621b873
 
-![](src/Imagenes-readme/IMG_20190828_133359.jpg)
-![](src/Imagenes-readme/IMG_20190828_133408.jpg)
+![](src/Imagenes-readme/IMG_20190628_133359.jpg)
+![](src/Imagenes-readme/IMG_20190628_133408.jpg)
 
 #### Prototipo de alta fidelidad
 
