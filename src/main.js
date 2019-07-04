@@ -1,5 +1,5 @@
 let mostarPokemon= POKEMON.pokemon;
-let information= document.getElementById("contenido");
+let information= document.getElementById("col-10 contenido-cards");
 //Mostrando tarjetas de pokemon
 mostarPokemon.forEach(function(element)  {
   //Diseño de tarjetas y contenido

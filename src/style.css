@@ -61,9 +61,18 @@
         width: 50%;
     }
 }
-
+.contenido-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
 .encabezado{
     background-image: url(imagenes-pokemon/img-07.png);
     background-repeat: no-repeat;
     background-position: top center;
 }  
+.pokedex{
+   width: 100%;
+   align-self: center;
+}
