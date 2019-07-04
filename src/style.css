@@ -59,6 +59,7 @@
     
     .logo{
         width: 50%;
+        
     }
 }
 
@@ -66,4 +67,4 @@
     background-image: url(imagenes-pokemon/img-07.png);
     background-repeat: no-repeat;
     background-position: top center;
-}  
+}
