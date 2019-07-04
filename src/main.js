@@ -3,7 +3,7 @@ let information= document.getElementById("col-10 contenido-cards");
 //Mostrando tarjetas de pokemon
 mostarPokemon.forEach(function(element)  {
   //Diseño de tarjetas y contenido
-  let cards = `<div>
+  let cards = `<div id="tarjetas">
   <img src="${element.img}">
   <p>No.${element.num}</p>
   <p>${element.name}</p>

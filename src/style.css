@@ -61,11 +61,13 @@
         width: 50%;
     }
 }
-.contenido-cards{
+#contenido-cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    text-align: center;
+    padding: 40px;
 }
 .encabezado{
     background-image: url(imagenes-pokemon/img-07.png);
@@ -75,4 +77,13 @@
 .pokedex{
    width: 100%;
    align-self: center;
+}
+.contenido-cards{
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#tarjetas{
+    flex-direction: row;
+    flex-wrap: wrap;
 }
