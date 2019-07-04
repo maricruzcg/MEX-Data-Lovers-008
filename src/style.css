@@ -59,6 +59,7 @@
     
     .logo{
         width: 50%;
+        
     }
 }
 #contenido-cards{
@@ -73,17 +74,4 @@
     background-image: url(imagenes-pokemon/img-07.png);
     background-repeat: no-repeat;
     background-position: top center;
-}  
-.pokedex{
-   width: 100%;
-   align-self: center;
-}
-.contenido-cards{
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-#tarjetas{
-    flex-direction: row;
-    flex-wrap: wrap;
 }
