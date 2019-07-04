@@ -15,9 +15,9 @@ mostarPokemon.forEach(function(element)  {
 });
 
 //Funcion para filtrar por tipo
-const pasto= mostarPokemon.filter(mostarPokemon => mostarPokemon.type.includes("Grass"));
-console.log(pasto)
-const 
+//const pasto= mostarPokemon.filter(mostarPokemon => mostarPokemon.type.includes("Grass"));
+//console.log(pasto)
+//const 
 
 //let filterType= mostarPokemon.filter(pokemon => (pokemon.type(Grass)));
 //console.log(filterType);
