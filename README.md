@@ -104,7 +104,7 @@ Se tomaron ciertas consideraciones para el diseño de la interfaz como fueron:
 
 **Marca:** para la marca se decidió respetar el logotipo oficial de la marca Pokémon y solo añadir la palabra easy, con la finalidad de que el usuario se sintiera en confianza de visitar el sitio. La palabra se Easy se eligió para que fuera una referencia de lo que queremos lograr con el sitio web, que sea fácil e intuitivo de navegar.
 
-![](src/imagenes-pokemon/img-o6.png)
+![](src/imagenes-pokemon/img-o7.png)
 
 **Paleta de color:** decidimos dejar la paleta de color de la marca Pokémon ya que el usuario la reconoce y se siente identificado.
 
@@ -130,7 +130,7 @@ Añadimos el prototipo de alta fidelidad.
 
 
 ![](src/Imagenes-readme/home.png)
-![](src/Imagenes-readme/lista-pokemon.png)
+![](src/Imagenes-readme/lista_pokemon.png)
 ![](src/Imagenes-readme/tarjeta.png)
 
 #### Testeo
@@ -143,6 +143,9 @@ Se realizó el testeo con 4 personas, lo cual nos arrojó la siguiente informaci
 - Consideraron que la pantalla donde aparecen los pokémones creian que se veian muy saturados presentar uno por uno, por lo que se llegó a la conclusión de presentarlos en la versión para celular en lista y no como tarjeta.
 - En conclusión los usuarios tuvieron respuestas positivas pues mencionaron que era muy organizada y que les había gustado la estructura.
 
+#### Presentación
+
+https://docs.google.com/presentation/d/1BluSs1qUlARn4h2YAEwaSucWBVel5mEjBGDrh2yqU3Y/edit?usp=sharing
 
 
 
