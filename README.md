@@ -28,11 +28,11 @@ En la actualidad Pokémon Go ha hecho que tenga de nuevo popularidad, por lo que
 
 ## Objetivo del proyecto
 
-Crear una página web donde el usuario pueda tener información específica de cada pokémon en la región Kanto. Que el usuario pueda hacer una búsqueda de su pokémon favorito y tenga información específica de él. Facilitar al usuario la búsqueda por medio de categorías como por el tipo de pokémon, los más populares, los más fuertes.
+Crear una página web donde el usuario pueda tener información específica de cada pokémon en la región Kanto. Que el usuario pueda hacer una búsqueda de su pokémon favorito y tenga información básica y específica de él. Facilitar al usuario la búsqueda por medio de categorías como por el tipo de pokémon. Hacer un cálculo de cuantos pokemones hay de cada tipo.
 
 ## Objetivo de la encuesta.
 
-Se realizó una encuesta para determinar a nuestro usuario, preguntar directamente que información les interesa tener en la página, determinar el conocimiento del usuario, la edad, generó y los pokémon favoritos.
+Se realizó una encuesta para determinar a nuestro usuario, preguntar directamente que información les interesa tener en la página, determinar el conocimiento del usuario, la edad, género y los pokémon favoritos.
 
 Se determinó que nuestros usuarios en la mayoría son mujeres, sin embargo la encuesta nos arrojó un número muy similar entre los usuarios.
 ![](src/Imagenes-readme/genero.png)
@@ -68,17 +68,21 @@ El usuario con respecto a pokémon entraría a la plataforma por curiosidad y pa
 
 **¿Qué necesitan nuestros usuarios?**
 
-Nuestros usuarios necesitan una página que le dé más información sobre pokémon, los tipos de pokémon que hay, las evoluciones, la comparación entre pokemones y los más populares.
+Nuestros usuarios necesitan una página que le dé más información básica sobre pokémon, los tipos de pokémon que hay así como sus debilidades con la finalidad de conocerlos o recordar algunos.
 
 **¿Qué quieren nuestros usuarios?**
 
 Una página que contenga información específica de los pokémon, poder compararlos, pero además conocer información como la historia, los personajes, etc.
 
+**Historia de usuario**
+
+![](src/Imagenes-readme/.jpg)
+
 ## Análisis de nuestra competencia
 
 https://pokemon.fandom.com/es/wiki/Kanto
 
-Esta página está diseñada con una versión tipo wikipedia de pokémon, donde puedes ver información desde los pokemon, lugares y personajes. Al parecer está dirigido a usuarios con categoría de fan.
+Esta página está diseñada con una versión tipo wikipedia de pokémon, donde puedes ver información desde los pokémon, lugares y personajes. Al parecer está dirigido a usuarios con categoría de fan.
 
 https://www.pokemon.com/es/
 
@@ -86,22 +90,45 @@ Esta página es la oficial de la marca, su distribución solo es la información
 
 ## Diseño de interfaz
 
-Consideraciones
-Necesitamos: botón de búsqueda, botones de categorías, comparación de pokémon, filtrar por número, definir colores (negro, rojo, azul, amarillo), información extra.
+En la propuesta de diseño se busca que el usuario tenga una experiencia intuitiva y de fácil manejo. Queremos que nuestro usuario se sienta seguro en el sitio e interesado en el sitio, por esta razón se decidió diseñar un espacio donde se le explique y de a conocer un poco del mundo Pokémon.
+
+Para el diseño de interfaz se busca solucionar con una idea sencilla y minimalista, evitando la saturación de colores, utilizando pocos elementos, para evitar que el usuario tenga problemas al usar la aplicación. Se decidió solo tener dos pantallas para que la navegación del usuario sea mas rapida y sencilla.
+
+Se tomaron ciertas consideraciones para el diseño de la interfaz como fueron:
+
+**Marca:** para la marca se decidió respetar el logotipo oficial de la marca Pokémon y solo añadir la palabra easy, con la finalidad de que el usuario se sintiera en confianza de visitar el sitio. La palabra se Easy se eligió para que fuera una referencia de lo que queremos lograr con el sitio web, que sea fácil e intuitivo de navegar.
+
+![](src/Imagenes-readme/.jpg)
+
+**Paleta de color:** decidimos dejar la paleta de color de la marca Pokémon ya que el usuario la reconoce y se siente identificado.
+
+![](src/Imagenes-readme/.jpg)
+.
 
 #### Prototipo de baja fidelidad
 
-Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel.
+Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel, así como las pantallas del protitipo.
 
-https://marvelapp.com/621b873
+https://marvelapp.com/419fbfa
 
-![](src/Imagenes-readme/IMG_20190628_133359.jpg)
-![](src/Imagenes-readme/IMG_20190628_133408.jpg)
+![](src/Imagenes-readme/.jpg)
 
 #### Prototipo de alta fidelidad
 
+Añadimos el prototipo de alta fidelidad.
+
+
+![](src/Imagenes-readme/.jpg)
+
 #### Testeo
 
+Se realizó el testeo con 4 personas, lo cual nos arrojó la siguiente información:
+
+- Consideraban necesario mostrar con una etiqueta en la posición en la que se encontraba el usuario al momento de dar clic, por lo que al momento de dar clic en el tipo de pokémon decidimos que se pintará de otro color.
+- El botón de filtrado no les era claro, ya que la funcionalidad del botón era ordenar por orden alfabético y por número inferior y número superior, así que se decidió cambiar el nombre del botón por ordenar.
+- Otro usuario nos comento de los colores, pero por ser el prototipo de baja fidelidad no se tomó en consideración.
+- Consideraron que la pantalla donde aparecen los pokémones creian que se veian muy saturados presentar uno por uno, por lo que se llegó a la conclusión de presentarlos en la versión para celular en lista y no como tarjeta.
+- En conclusión los usuarios tuvieron respuestas positivas pues mencionaron que era muy organizada y que les había gustado la estructura.
 
 
 
