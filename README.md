@@ -76,7 +76,11 @@ Una página que contenga información específica de los pokémon, poder compara
 
 **Historia de usuario**
 
-![](src/Imagenes-readme/.jpg)
+El usuario quiere:
+- Una página donde se muestre todos los pokémones de la región Kanto.
+- Poder buscar los pokémones de un solo tipo.
+- Poder ordenar los pokémones de número inferior y número superior, y en orden alfabético.
+- Conocer y tener información de Pokémon, como son la historia, personajes, regiones, etc.
 
 ## Análisis de nuestra competencia
 
