@@ -10,6 +10,8 @@ Otra finalidad de los entrenadores pokémon es entrenar y enfrentar los pokémon
 
 Existen 18 tipos de pokémon.
 
+![](src/Imagenes-readme/tipos_pokemon.png)
+
 **Pokédex**
 
 El pokédex registra los datos de los pokémon, al inicio de los videojuegos el pokédex está en blanco, ya que quieren que el jugador a medida que va avanzando y conociendo la zona conoce los pokémon y los archiva para después tener información de ellos y pueda utilizarlos en sus enfrentamientos.
@@ -102,11 +104,11 @@ Se tomaron ciertas consideraciones para el diseño de la interfaz como fueron:
 
 **Marca:** para la marca se decidió respetar el logotipo oficial de la marca Pokémon y solo añadir la palabra easy, con la finalidad de que el usuario se sintiera en confianza de visitar el sitio. La palabra se Easy se eligió para que fuera una referencia de lo que queremos lograr con el sitio web, que sea fácil e intuitivo de navegar.
 
-![](src/Imagenes-readme/.jpg)
+![](src/imagenes-pokemon/img-o6.png)
 
 **Paleta de color:** decidimos dejar la paleta de color de la marca Pokémon ya que el usuario la reconoce y se siente identificado.
 
-![](src/Imagenes-readme/.jpg)
+![](src/Imagenes-readme/poke-easy-13.png)
 .
 
 #### Prototipo de baja fidelidad
@@ -115,14 +117,21 @@ Añadimos el prototipo de baja fidelidad, con la aplicación de Marvel, así com
 
 https://marvelapp.com/419fbfa
 
-![](src/Imagenes-readme/.jpg)
+![](src/Imagenes-readme/IMG_20190628_133359.jpg)
+![](src/Imagenes-readme/IMG_20190628_133408.jpg)
+![](src/Imagenes-readme/poke-easy-02.png)
+![](src/Imagenes-readme/poke-easy-05.png)
+![](src/Imagenes-readme/poke-easy-10.png)
+![](src/Imagenes-readme/poke-easy-11.png)
 
 #### Prototipo de alta fidelidad
 
 Añadimos el prototipo de alta fidelidad.
 
 
-![](src/Imagenes-readme/.jpg)
+![](src/Imagenes-readme/home.png)
+![](src/Imagenes-readme/lista-pokemon.png)
+![](src/Imagenes-readme/tarjeta.png)
 
 #### Testeo
 
