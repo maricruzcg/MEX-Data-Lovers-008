@@ -1,6 +1,6 @@
 window.data ={
 
-  show: (pokemon) => {
+  showPokemon: (pokemon) => {
     let cardPokemon= []; //variable vacia para crear array con nueva informacion
     
     for(let i=0; i< pokemon.length;i++) { //bucle para buscar en la data informacion especifica
@@ -40,6 +40,9 @@ window.data ={
     return filterType;
 
   },
+  // estadisticas : (data) => {
+  //   console.log(data)
+  // },
 
   // sortData: (data, sortOrder) => {
 
@@ -76,49 +79,14 @@ window.data ={
     });
     return orderPok;
 
-  },
-  computeStats: (data) =>{
+  // },
+  // computeStats: (data) => {
+  //   // return 
+  //   // console.log(data);
 
-    const hierba = data.filter(showPokemon => showPokemon.type.includes("Grass"));
-       const totalHierba= hierba.lengt;
-     const veneno = data.filter(showPokemon => showPokemon.type.includes("Posison"));
-       const totalVeneno= veneno.length;
-     const fuego = data.filter(showPokemon => showPokemon.type.includes("Fire"));
-       const totalFuego= fuego.length;
-     const volador = data.filter(showPokemon => showPokemon.type.includes("Flying"));
-      const totalVuelo= volador.length;
-     const agua = data.filter(showPokemon => showPokemon.type.includes("Water"));
-      const totalAgua= agua.length;
-     const electrico = data.filter(showPokemon => showPokemon.type.includes("Electric"));
-       const totalElectrico= electrico.length;
-     const insecto = data.filter(showPokemon => showPokemon.type.includes("Bug"));
-       const totalInsecto= insecto.length;
-     const roca = data.filter(showPokemon => showPokemon.type.includes("Rock"));
-      const totalRoca= roca.length;
-     const hielo = data.filter(showPokemon => showPokemon.type.includes("Ice"));
-       const totalHielo= hielo.length;
-     const psyquico = data.filter(showPokemon => showPokemon.type.includes("Psychic"));
-       const totalPsyquico= psyquico.length;
-     const normal = data.filter(showPokemon => showPokemon.type.includes("Normal"));
-       const totalNormal= normal.length;
-     const tierra= data.filter(showPokemon => showPokemon.type.includes("Ground"));
-       const totalTierra= tierra.length;
-     const dragon = data.filter(showPokemon => showPokemon.type.includes("Dragon"));
-       const totalDragon= dragon.length;
-     const fantasma = data.filter(showPokemon => showPokemon.type.includes("Ghost"));
-       const totalFantasma= fantasma.length;
-     const oscuro = data.filter(showPokemon => showPokemon.type.includes("Dark"));
-       const totalOscuro= oscuro.length;
-     const lucha = data.filter(showPokemon => showPokemon.type.includes("Fighting"));
-       const totalLucha= lucha.length;
-     
+    // const typeCompute = data.filter(pokemon => pokemon.type.includes === selectType);
+    // console.log(typeCompute);
 
-    const totales = () => {
-      return totalHielo,totalFuego, totalVuelo, totalAgua, totalDragon, totalFantasma, 
-      totalDragon, totalOscuro, totalLucha, totalTierra, totalNormal, totalPsyquico, totalInsecto,
-      totalElectrico, totalRoca, totalHierba, totalVeneno  <= 20;
-    };
-    console.log(totales);
   }
 
 };

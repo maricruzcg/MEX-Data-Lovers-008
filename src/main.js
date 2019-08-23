@@ -1,7 +1,9 @@
 let information= document.getElementById("contenido-cards");
-const showPokemon = window.data.show(POKEMON.pokemon);//llamando data de archivo data.js
+const showPokemon = window.data.showPokemon(POKEMON.pokemon);//llamando data de archivo data.js
 const select = document.getElementById("select-type-pokemon");
 const orderPokemon = document.getElementById("select-order"); //llamando boton select de orden
+// const selectCalculate = document.getElementById("calculate-type");
+const numberPokemon = document.getElementById("number-pokemon");
 
 
 let printCards = (showPokemon) => {
@@ -36,7 +38,8 @@ printCards(showPokemon);
 
 let arrayType = (showPokemon) => {
   const newArray = window.data.filterData(showPokemon, select.value);
-  
+  calculate();
+  // console.log(newArray.length)
   if(select.value == "Todos") {
     printCards(showPokemon);
     
@@ -50,8 +53,23 @@ let arrayType = (showPokemon) => {
 let changeOrder = (showPokemon) => {
   let selectOrder = orderPokemon.value;
   const alfabetic = window.data.sortData(showPokemon,selectOrder);
-  
   printCards(alfabetic);
+};
+
+// const typeCompute = showPokemon.filter(showPokemon => showPokemon.type.includes(select.value));
+//   console.log(typeCompute);
+
+//Calculo de cuantos pokemones hay por cada tipo, aun no es pura
+
+const calculate = () => {
+  const typeCompute = window.data.filterData(showPokemon,select.value).length;
+  if(select.value == "Todos") {
+    numberPokemon.innerHTML = "Hay 151 pokémones en la Región Kanto";  
+  }else{
+    numberPokemon.innerHTML = "Hay " + typeCompute + " pokémones de este tipo en la Región Kanto";
+
+  }
+
 };
 
 
